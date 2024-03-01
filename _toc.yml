@@ -1,0 +1,6 @@
+format: jb-book
+root: main
+chapters:
+  - file: year3
+  - file: year2
+  - file: year1

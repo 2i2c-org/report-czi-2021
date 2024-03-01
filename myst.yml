@@ -1,0 +1,20 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: 2i2c CZI grant report
+  # description:
+  keywords: [open-grants]
+  authors: [Chris Holdgraf]
+  github: https://github.com/2i2c-org
+  # bibliography: []
+site:
+  template: book-theme
+  title: 2i2c report
+  options:
+    logo: images/logo.png
+    favicon: images/favicon.png
+  nav: []
+  actions:
+    - title: Learn More
+      url: https://mystmd.org/guide
+  domains: []
