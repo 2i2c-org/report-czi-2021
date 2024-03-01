@@ -2,13 +2,15 @@
   version: 1
   project:
     title: 2i2c CZI grant report
-    # description:
+    description: |
+      An overview of 2i2c's impact and operations over the first three years of
+      its existence, as part of a grant final narrative for CZI.
+    thumbnail: "images/social.png"
     keywords: [open-grants]
     authors: [Chris Holdgraf]
     github: https://github.com/2i2c-org
     license: CC-BY-4.0
     open_access: true
-    thumbnail: images/social.png
     date: "2023-03-01"
     funding: This report is for the [seed funding from CZI described in this blog post](https://2i2c.org/blog/2021/czi-core-support/).
     # bibliography: []
