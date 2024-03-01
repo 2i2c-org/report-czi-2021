@@ -1,20 +1,28 @@
-# See docs at: https://mystmd.org/guide/frontmatter
-version: 1
-project:
-  title: 2i2c CZI grant report
-  # description:
-  keywords: [open-grants]
-  authors: [Chris Holdgraf]
-  github: https://github.com/2i2c-org
-  # bibliography: []
-site:
-  template: book-theme
-  title: 2i2c report
-  options:
-    logo: images/logo.png
-    favicon: images/favicon.png
-  nav: []
-  actions:
-    - title: Learn More
-      url: https://mystmd.org/guide
-  domains: []
+  # See docs at: https://mystmd.org/guide/frontmatter
+  version: 1
+  project:
+    title: 2i2c CZI grant report
+    # description:
+    keywords: [open-grants]
+    authors: [Chris Holdgraf]
+    github: https://github.com/2i2c-org
+    license: CC-BY-4.0
+    open_access: true
+    thumbnail: images/social.png
+    date: "2023-03-01"
+    funding: This report is for the [seed funding from CZI described in this blog post](https://2i2c.org/blog/2021/czi-core-support/).
+    # bibliography: []
+  site:
+    template: book-theme
+    title: 2i2c three year report
+    options:
+      logo: images/logo.png
+      favicon: images/favicon.png
+      logo_text: "2023 three year report"
+    nav:
+      - title: 2i2c team compass
+        url: https://compass.2i2c.org
+      - title: Service documentation
+        url: https://docs.2i2c.org/en/latest/
+      - title: Infrastructure guide
+        url: https://infrastructure.2i2c.org/en/latest/  

@@ -3,14 +3,11 @@
 
 _The following project assessment is from year 2 of 2i2c’s operation (12/2020 through 08/2021). It is copied from our previous report to CZI, as a historical record of the project’s progress._
 
-
 ## Major developments
-
 
 ### Funding and grants
 
 As this is a capacity building award, we list below funding that we have facilitated or applied for over the past 9 months. A subset of these grants are directly for 2i2c, while many of them are for other communities and open source projects that align with 2i2c’s mission. All of them are related to infrastructure and services that improve Jupyter’s impact in research and education.
-
 
 <table>
   <tr>
@@ -117,12 +114,9 @@ As this is a capacity building award, we list below funding that we have facilit
 
 In addition to funding from these grants, we have also been developing potential revenue and sustainability models for the [Managed JupyterHub Service](https://team-compass.2i2c.org/en/latest/projects/managed-hubs/index.html). We are still revising these models and using our JupyterHub pilots (see below) to gain experience and arrive at the best pricing and sales structure. We anticipate finalizing these models and running prototypes of revenue-generating Managed Hub Contracts in the second year of this grant.
 
-
 ### New team members
 
 We’ve welcomed two new members to the 2i2c core team. These individuals will both work towards [2i2c’s major projects](https://2i2c.org/projects), and collaborate together on running our 2i2c Pilot Hub infrastructure. Here’s a bit about each new team member.
-
-
 
 * [Damián Avila](https://github.com/damianavila). Damian joined 2i2c in May. He has been a Jupyter core team member for many years now, and has done work across many different parts of the PyData stack (in particular, [Jupyter](https://jupyter.org/), [Bokeh](http://bokeh.org/), [RISE](https://rise.readthedocs.io/), and [Nikola](https://getnikola.com/)). Damián will focus his efforts on supporting JupyterHub infrastructure for the [Pangeo project](https://pangeo.io/), as well as development across the [Executable Books Project](https://executablebooks.org/)
 * [Sarah Gibson](https://github.com/sgibson91). Sarah joined 2i2c in June, after spending several years as a Research Software Engineer at [the Turing Institute](https://www.turing.ac.uk/). She has also been involved with [the Turing Way](https://the-turing-way.netlify.app/welcome) for many years. Sarah will focus her efforts on JupyterHub development and operations for the Pangeo community.
@@ -134,7 +128,6 @@ We’ve welcomed two new members to the 2i2c core team. These individuals will b
 
 One of the first acts of the Steering Council has been to [adopt a Code of Conduct](https://team-compass.2i2c.org/en/latest/code-of-conduct/index.html). This is a set of guidelines, and a process for resolving incidents, that makes our community more inclusive, equitable, and enjoyable for all.
 
-
 ### Early pilot JupyterHub infrastructure
 
 In addition to organizational structure and foundations, we have also made progress along the JupyterHub deployment infrastructure we wish to provide and support. One of our major organizational goals is to build a sustainable service [managing open source cloud infrastructure](https://2i2c.org/infrastructure) for interactive computing. This service will provide hosted, customized JupyterHubs for communities of practice in research and education. They’ll be built entirely with open source tools that are community-driven, and that [respect the customer’s Right to Replicate](https://2i2c.org/right-to-replicate).
@@ -144,7 +137,6 @@ In order to accomplish this, 2i2c is running several pilots with partners and in
 The [documentation for our pilot hubs infrastructure](https://pilot-hubs.2i2c.org/en/latest/) contains information about our deployments and infrastructure. It is served from [this 2i2c-org/pilot-hubs repository](https://github.com/2i2c-org/pilot-hubs), a centralized location for configuring and deploying a federated network of JupyterHubs. Each JupyterHub is independent of one another, and could be spun out from the centralized repository with minimal extra work, giving hub users the ability to [replicate their infrastructure, with or without 2i2c](https://2i2c.org/right-to-replicate). We will continue refining the code in this repository as we learn more from our hub infrastructure pilots.
 
 [This page has a list of our currently running JupyterHubs](https://pilot-hubs.2i2c.org/en/latest/reference/hubs.html). Each one roughly corresponds to a community that we are serving (e.g., a classroom, a research group, or an institution). As of this report there are around 30 JupyterHubs that we manage.
-
 
 ### JupyterHub for geospatial analytics - A collaboration with Pangeo
 
@@ -159,16 +151,13 @@ We’ve begun a partnership with the UC Berkeley [Data Science in Undergraduate 
 
 2i2c will provide the deployment and configuration architecture for this collaboration, working with [Sean Morris](https://its.berkeley.edu/people/sean-morris) in operating this educational infrastructure. All of the cloud infrastructure for this pilot will be funded via CloudBank. We will begin by offering environments that are modeled after [the Data 8 course at UC Berkeley](https://data8.org/). This is part of an effort to build a community of practice around Data Science education using open source tools.
 
-
 ## Areas for growth
 
 In the next phase of this grant, we aim to continue executing on our major strategic priorities, briefly described below:
 
-
-
-* **Managed JupyterHub Service: **after gaining experience running infrastructure with our Managed JupyterHub Pilot, we plan to crystallize and prototype a service model for managed infrastructure. This includes an infrastructure plan, a support plan, a sales and billing plan, and a pricing plan. There are still some major unknowns to resolve before this is complete - particularly, what kind of pricing structure will be the most effective at making this service accessible, scalable, and sustainable for us and for the communities we serve. This will require consultation with those familiar with non-profit / open source business and service models.
-* **Organizational Foundations: **as 2i2c is still a young organization, there is much work to be done in laying the basic policies and practices of our organization. We are defining more distributed-friendly team coordination practices, and improving our project planning and milestones process. We also plan to revisit our governance and steering council structures to ensure that they are well-positioned to guide 2i2c’s strategy moving forward. This will require consultation with other leaders in the non-profit sector to understand how we can improve our organizational practices.
-* **Major collaborations and development: **we have launched several major collaborations in our first year, most notably with the Pangeo Project, and continuing a collaboration with the Jupyter Book project. In our next phase, we wish to develop an infrastructure strategy that allows development with these communities to complement one another, and feed into a broader infrastructure system that we can re-use and customize for other communities as well. This will require more technical design in partnership with key stakeholders across the Jupyter and open source community.
+* **Managed JupyterHub Service:** after gaining experience running infrastructure with our Managed JupyterHub Pilot, we plan to crystallize and prototype a service model for managed infrastructure. This includes an infrastructure plan, a support plan, a sales and billing plan, and a pricing plan. There are still some major unknowns to resolve before this is complete - particularly, what kind of pricing structure will be the most effective at making this service accessible, scalable, and sustainable for us and for the communities we serve. This will require consultation with those familiar with non-profit / open source business and service models.
+* **Organizational Foundations:** as 2i2c is still a young organization, there is much work to be done in laying the basic policies and practices of our organization. We are defining more distributed-friendly team coordination practices, and improving our project planning and milestones process. We also plan to revisit our governance and steering council structures to ensure that they are well-positioned to guide 2i2c’s strategy moving forward. This will require consultation with other leaders in the non-profit sector to understand how we can improve our organizational practices.
+* **Major collaborations and development:** we have launched several major collaborations in our first year, most notably with the Pangeo Project, and continuing a collaboration with the Jupyter Book project. In our next phase, we wish to develop an infrastructure strategy that allows development with these communities to complement one another, and feed into a broader infrastructure system that we can re-use and customize for other communities as well. This will require more technical design in partnership with key stakeholders across the Jupyter and open source community.
 
 
 ## Unexpected changes
