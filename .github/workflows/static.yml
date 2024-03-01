@@ -28,7 +28,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     env:
-      BASE_URL: ${{ steps.deployment.outputs.page_url }}
+      BASE_URL: "https://2i2c.org/reports-czi-2021"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
