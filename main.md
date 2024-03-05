@@ -15,6 +15,27 @@ This [MyST Document](https://mystmd.org) is a final grant report generated for t
 
 This document contains an overview of the impact and journey of these three years. It is broken down into three key areas of organizational impact.
 
+::::{note} A note on measurements
+:class: dropdown
+
+Over the last three years, we've learned the importance of having measures that reflect progress towards your strategic objectives and goals.
+Measures like this give us a more objective way to decide we are making progress (or not), and if we need to modify our approach.
+
+We've tried to include a few key measures for each of the major areas of progress below.
+We know they aren't perfect, and in some cases need an overhaul or better mechanisms for measuring.
+You'll see them in "cards" like the following:
+
+:::{card} Here's a card
+And here's some extra information!
+:::
+
+
+We'll include a brief explanation of why we use each of these measures, and what we might want to improve about them.
+You'll find those in dropdowns similar to the one you're reading now.
+
+[See our KPIs documentation](https://compass.2i2c.org/organization/kpis/) for more information about the metrics we track and aim to track.
+::::
+
 ## Impact through our cloud platform and service
 
 2i2c aims to provide a community-centric platform that enables the lifecycle of knowledge creation and sharing. At the heart of this model is a community JupyterHub that provides a digital space where many community members come together to access shared resources and work together[^communities][^seealsocommunities].
@@ -66,6 +87,19 @@ These communities are intentionally diverse in their scope and focus, and range 
 
 These numbers are beyond the expectations that we had for 2i2c when we first began this service, and speak to the value of open science platforms rooted in community-centric design and open infrastructure.
 
+:::{note} How we chose measures for community impact
+:class: dropdown
+
+We chose to measure impact both at the community level (number of community hubs), as well as the amount of usage across all communities (monthly active users).
+This is because 2i2c aims to balance *breadth* and *depth* of service, serving both many different kinds of workflows, but also providing enough flexibility that communities can tailor their hub to their needs and grow their total users.
+
+We additionally track communities we define as "marginalized" because we believe that equity and democratizing access to infrastructure is a core part of 2i2c's mission.
+Historically marginalized communities often lack the resources or expertise to manage and access infrastructure, and we want to ensure 2i2c's service benefits these communities.
+
+In the future, we hope to perform more in-depth research to understand how these communities use our platform, as well as the diversity of user archetypes and workflows that are contained within a single community.
+
+:::
+
 
 ## Capacity building for open source projects
 
@@ -93,6 +127,16 @@ PRs authored by a 2i2c team member that were merged in the last three months, fo
 2i2c now **employs 6 “distinguished contributors” to the Jupyter Community**, as well as several team members that create training and guidance programs to help communities use these open source tools to their full potential. We have driven major enhancements to technology in the stack, such as bringing [Binder-like environment building to JupyterHub](https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/), or [creating a more flexible and powerful user environment selector](https://github.com/yuvipanda/jupyterhub-fancy-profiles), or [defining a new documentation back-end for the Jupyter Book ecosystem](https://executablebooks.org/en/latest/blog/2023/new-project-members/).
 
 We believe that no other organization exists that has served such a diverse collection of community partners in open science workflows while providing entirely open source technology that is driven by multi-stakeholder communities of practice. This highlights our commitment to ensuring these open source communities are healthy.
+
+:::{note} How we chose measures for upstream impact
+:class: dropdown
+
+Measuring "impact" in open source communities is difficult without additional resources to interview community members and understand the true impact of a person's participation in a community.
+Many projects track "volume-based" metrics like "number of comments", "issues opened", etc, but these are not necessarily correlated with "useful contributions" (and in some cases may be anti-correlated).
+
+We decided to use "Pull Requests authored by 2i2c team members that were merged" as a reflection of both "work done by 2i2c team members" in addition to "work that was deemed useful by the community and thus merged into its codebase". This almost certainly under-counts the many non-development ways that our team contributes (for example, providing guidance in issues, reviewing the work of others, and providing broad leadership and strategic guidance). We hope to find better ways to measure the breadth of our upstream contributions in the coming years.
+
+:::
 
 ## Organizational capacity and sustainability
 
@@ -123,7 +167,7 @@ Total funding brought in by 2i2c for each quarter of this grant, broken down by 
 :::
 
 
-Finally, here are the [new service contracts in each quarter since the start of this grant](#contracts_by_quarter). This is a reflection of the revenue-generating partnerships that 2i2c has created.
+Here are the [new service contracts in each quarter since the start of this grant](#contracts_by_quarter). This is a reflection of the revenue-generating partnerships that 2i2c has created.
 
 :::{figure} images/service_contracts_by_quarter.png
 :align: center
@@ -141,7 +185,26 @@ Finally, over the past three years 2i2c has also grown and matured as an organiz
 Total number of paid staff (full or part time) at 2i2c. This reflects our organizational capacity and an increasing complexity and scope of operations. Note that two additional staff members have been hired since the end-date of this grant, and 2i2c's current team is 12 paid staff.
 :::
 
-This more complex structure reflects a more mature organization that understands the roles that are needed in order to deliver excellent open science cloud services to research and education communities. We also believe this model  can serve as a guide for mission-driven organizations that facilitate collaboration between the open science and open source communities.
+This more complex structure reflects a more mature organization that understands the roles that are needed in order to deliver excellent open science cloud services to research and education communities. We also believe this model can serve as a guide for mission-driven organizations that facilitate collaboration between the open science and open source communities.
+
+However, the additional staff in our team also has a significant impact on our organizational costs.
+As a result, one of our main strategic objectives heading into the next year is to raise funds that allow us to continue providing 2i2c's community-centric service at our current staff levels.
+
+:::{note} How we chose measures for organizational capacity
+:class: dropdown
+
+Measuring organizational capacity is also difficult because it is an inherently multi-faceted quality that is not easily captured by a single number.
+In addition, 2i2c is still relatively young, and thus is still growing its capacity to measure organization-wide traits like this.
+We believe that our recent [Delivery Manager / Chief of Staff role](https://compass.2i2c.org/engineering/roles/delivery-manager/) will help us refine our understanding and practice around organizational capacity.
+
+In the meantime, we choose "financial support" as well as "team size" as a reflection of overall capacity. This is because at a fundamental level, any organization is both balancing the cost of its operations against its ability to bring in revenue to fund those operations.
+Growing an organization is a constant balancing act between matching your organizational capacity (your costs) to your organizational commitments (which bring in revenues).
+It is also a way for us to track improvements in team efficiency and skills (by being able to grow our operations without significantly growing our costs).
+
+In the future, we aim to define measures of team velocity and efficiency, in order to more directly measure our ability to deliver work and enhance our service.
+We hope to balance this against the numbers-based "cost" and "revenue" metrics in order to ensure our team becomes more efficient and effective over time.
+
+:::
 
 
 ## Areas for growth and next steps
@@ -168,4 +231,3 @@ We are currently exploring a combination of grants, donations, and service contr
 ## Acknowledgements
 
 2i2c’s success would not be possible without [the critical support it received from CZI at its founding](https://2i2c.org/blog/2021/czi-core-support/). The capacity provided by this grant was a crucial moment in crystallizing the vision of 2i2c and taking our first steps as an organization. We are honored to have had this chance to build an impactful, open, and ambitious organization like 2i2c, and we’re excited about the next step in our organization’s journey.
-
