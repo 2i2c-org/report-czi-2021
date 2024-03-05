@@ -6,7 +6,7 @@ project:
     An overview of 2i2c's impact and operations over the first three years of
     its existence, as part of a grant final narrative for CZI.
   thumbnail: "images/social.png"
-  keywords: [open-grants]
+  keywords: [open grants, open science, jupyter, open infrastructure]
   authors:
     - name: Chris Holdgraf
       orcid: 0000-0002-2391-0678
@@ -21,6 +21,18 @@ project:
   date: "2023-03-01"
   funding: This report is for the [seed funding from CZI described in this blog post](https://2i2c.org/blog/2021/czi-core-support/).
   # bibliography: []
+
+  # Neither of these exports works, so for now I'm just ignoring them.
+  exports:
+  # - format: typst
+  #   template: lapreprint-typst
+  #   toc: _toc.yml
+  #   output: _build/pdf/my-document-typst.pdf
+  # - format: pdf
+  #   template: volcanica
+  #   article_type: Report      
+  #   toc: _toc.yml
+  #   output: _build/pdf/my-document-latex.pdf
 site:
   template: book-theme
   title: 2i2c three year report
@@ -35,3 +47,4 @@ site:
       url: https://docs.2i2c.org/en/latest/
     - title: Infrastructure guide
       url: https://infrastructure.2i2c.org/en/latest/  
+

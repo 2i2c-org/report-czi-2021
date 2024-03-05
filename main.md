@@ -5,32 +5,39 @@ abbreviations:
 
 # 2i2c three year grant report
 
++++ {"part": "abstract"}
+
+This [MyST Document](https://mystmd.org) is a final grant report generated for the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) for the seed grant that founded 2i2c. It covers the major goals, operations, and impact of 2i2c over its first three years of existence.
+
++++
+
 2i2c is now three years old, having been initially founded with this grant from CZI in late 2020. Over this time, 2i2c has grown and matured as an organization, has served thousands of users doing open science and education, and has made extensive contributions to the open source ecosystem for interactive computing.
 
 This document contains an overview of the impact and journey of these three years. It is broken down into three key areas of organizational impact.
 
 ## Impact through our cloud platform and service
 
-2i2c aims to provide a community-centric platform that enables the lifecycle of knowledge creation and sharing. At the heart of this model is a community JupyterHub that provides a digital space where many community members come together to access shared resources and work together[^communities].
+2i2c aims to provide a community-centric platform that enables the lifecycle of knowledge creation and sharing. At the heart of this model is a community JupyterHub that provides a digital space where many community members come together to access shared resources and work together[^communities][^seealsocommunities].
 
-:::{seealso}
-For a more in-depth picture of community hubs see our [Community Hubs Usage Dashboard](https://2i2c.org/kpis/cloud/).
-:::
+[^communities]: “Communities” are a combination of research groups, classrooms, communities of practice, and institutions that were actively using the service at the end of each date period.seelsocommunities Historically marginalized communities are defined as educational institutions that are not R1 universities (for example, community colleges) as well as communities that are primarily not based in North America or Western Europe.
 
-[^communities]: “Communities” are a combination of research groups, classrooms, communities of practice, and institutions that were actively using the service at the end of each date period. Historically marginalized communities are defined as educational institutions that are not R1 universities (for example, community colleges) as well as communities that are primarily not based in North America or Western Europe.
-
-The most direct measure of impact for 2i2c is in the number and diversity of communities that utilize our service. At the time of writing, our open science cloud platform serves more than **70 different communities**, at a total of around **7200 monthly active users**.
+[^seealsocommunities]: For a more in-depth picture of community hubs see our [Community Hubs Usage Dashboard](https://2i2c.org/kpis/cloud/).
 
 ::::{grid} 1 1 2 2
 
-:::{card} Total Active Communities
-70
+:::{card} More than 70 Active Communities
+:link: https://2i2c.org/kpis/cloud/
+See the latest data.
 :::
 
-:::{card} Monthly Active Users
-7200
+:::{card} More than 7200 Monthly Active Users
+:link: https://2i2c.org/kpis/cloud/
+See the latest data.
 :::
 ::::
+
+
+The most direct measure of impact for 2i2c is in the number and diversity of communities that utilize our service. At the time of writing, our open science cloud platform serves more than **70 different communities**, at a total of around **7200 monthly active users**.
 
 Below we show [the total number of communities served on our platform each year](#total_communities), with a focus on historically marginalized communities.
 
@@ -62,10 +69,13 @@ These numbers are beyond the expectations that we had for 2i2c when we first beg
 
 ## Capacity building for open source projects
 
-Another key outcome of this grant was using 2i2c as a mechanism to grow capacity in open source ecosystems. 2i2c builds its open science platform by integrating community-driven open source projects. Providing upstream contributions and support to the communities that underlie these projects is a secondary goal that underlies 2i2c’s open practices as an organization.
+Another key outcome of this grant was using 2i2c as a mechanism to grow capacity in open source ecosystems. 2i2c builds its open science platform by integrating community-driven open source projects. Providing upstream contributions and support to the communities that underlie these projects is a secondary goal that underlies 2i2c’s open practices as an organization[^upstream].
 
-:::{seealso}
-For a more in-depth picture of our upstream contributions, see [our Upstream Contributions Dashboard](https://2i2c.org/kpis/upstream/).
+[^upstream]: For a more in-depth picture of our upstream contributions, see [our Upstream Contributions Dashboard](https://2i2c.org/kpis/upstream/).
+
+:::{card} More than 2,000 Pull Requests authored by 2i2c and merged in last three years
+:link: https://2i2c.org/kpis/upstream/
+See the latest data.
 :::
 
 Since January, 2021, 2i2c’s team members have authored over **[2,000 merged pull requests across more than 600 repositories](https://github.com/search?q=author:choldgraf+author:haroldcampbell+author:colliand+author:jmunroe+author:Gman0909+author:AIDEA775+author:consideRatio+author:damianavila+author:georgianaelena+author:sgibson91+author:yuvipanda+org:jupyter+org:jupyter-server+org:jupyterhub+org:jupyterlab+org:binder-examples+org:executablebooks+org:cryptnono+org:dask+org:pydata+org:rocker-org+org:pangeo-data+is:pr+merged:%3E=2020-12-01)** in “key upstream communities” that underlie our infrastructure[^kuc]. For example, [here is a summary of merged Pull Requests in key upstream repositories](#prs_by_repository) that were authored by a 2i2c team member over the last two quarters:
@@ -76,7 +86,7 @@ Since January, 2021, 2i2c’s team members have authored over **[2,000 merged pu
 :align: center
 :name: prs_by_repository
 
-PRs authored by a 2i2c team member that were merged in the last three years, for key upstream communities.
+PRs authored by a 2i2c team member that were merged in the last three months, for key upstream communities. See latest data at [2i2c.org/kpis](https://2i2c.org/kpis).
 :::
 
 
@@ -86,9 +96,13 @@ We believe that no other organization exists that has served such a diverse coll
 
 ## Organizational capacity and sustainability
 
-Finally, 2i2c has grown and matured as an organization. We began with a team of **two** (an Executive Director and one Engineer). We are now a team of **twelve**, with organizational capacity split across engineering, community partnerships, product management, and organizational operations and strategy. This more complex structure reflects a more mature organization that understands the roles that are needed in order to deliver excellent open science cloud services to research and education communities. We also believe this model  can serve as a guide for mission-driven organizations that facilitate collaboration between the open science and open source communities.
+Finally, 2i2c aimed to achieve this impact in a sustainable way that grew the capacity of the open science and open source ecosystems. This ensures that we have a model for sustainably serving our communities and the open source ecosystem into the future.
 
-Over the last three years, 2i2c has brought in **over $5.6 million dollars**(including this grant) to fund the capacity needed to carry out its operations. The majority of our funds have come from direct grants to 2i2c, or grant-funded collaborations with other communities. Over time, we have increased the percentage of our revenue that comes from service contracts, and aim to continue this trend to further diversify our sources of funding.
+:::{card} More than $5.5 million in funding brought in over three years.
+Distributed between 2i2c and its partners.
+:::
+
+Over the last three years, 2i2c has brought in **over $5.6 million** (including this grant) to fund the capacity needed to carry out its operations. The majority of our funds have come from direct grants to 2i2c, or grant-funded collaborations with other communities. Over time, we have increased the percentage of our revenue that comes from service contracts, and aim to continue this trend to further diversify our sources of funding.
 
 Below is a graph of [2i2c’s total funding broken down by major category](#funding_by_contract_type). Note that for several grants, 2i2c was not the sole recipient of funds, but served as the Principal Awardee for the grant.
 
@@ -118,10 +132,21 @@ Finally, here are the [new service contracts in each quarter since the start of 
 Service contracts each quarter during the lifecycle of this grant, broken down by major category.
 :::
 
+Finally, over the past three years 2i2c has also grown and matured as an organization. We began with a team of **two** (an Executive Director and one Engineer). We are now a team of **twelve**, with organizational capacity split across engineering, community partnerships, product management, and organizational operations and strategy.
+
+:::{figure} images/staff_members.png
+:align: center
+:name: staff_members
+
+Total number of paid staff (full or part time) at 2i2c. This reflects our organizational capacity and an increasing complexity and scope of operations. Note that two additional staff members have been hired since the end-date of this grant, and 2i2c's current team is 12 paid staff.
+:::
+
+This more complex structure reflects a more mature organization that understands the roles that are needed in order to deliver excellent open science cloud services to research and education communities. We also believe this model  can serve as a guide for mission-driven organizations that facilitate collaboration between the open science and open source communities.
+
 
 ## Areas for growth and next steps
 
-After three years, 2i2c’s service has demonstrated a clear demand for community-centric science platforms built on open infrastructure, and continues to grow the percentage of costs it recovers from service contracts versus grants. We’ve also identified several challenges to overcome in order to carry the organization forward into its next phase. Below is a brief description of each. 
+After three years, 2i2c’s service has demonstrated a clear demand for community-centric science platforms built on open infrastructure, and continues to grow the percentage of costs it recovers from service contracts versus grants. We’ve also identified challenges to overcome in order to carry the organization forward into its next phase. Below is a brief description of each. 
 
 
 ### Refine our operating and service model
