@@ -11,7 +11,7 @@ This [MyST Document](https://mystmd.org) is a final grant report generated for t
 
 +++
 
-2i2c is now three years old, having been initially founded with this grant from CZI in late 2020. Over this time, 2i2c has grown and matured as an organization, has served thousands of users doing open science and education, and has made extensive contributions to the open source ecosystem for interactive computing.
+2i2c is now three years old, having been initially [founded with this grant from CZI in late 2020](https://2i2c.org/blog/2021/czi-core-support/). Over this time, 2i2c has grown and matured as an organization, has served thousands of users doing open science and education, and has made extensive contributions to the open source ecosystem for interactive computing.
 
 This document contains an overview of the impact and journey of these three years. It is broken down into three key areas of organizational impact.
 
@@ -29,16 +29,22 @@ You'll see them in "cards" like the following:
 And here's some extra information!
 :::
 
-
 We'll include a brief explanation of why we use each of these measures, and what we might want to improve about them.
 You'll find those in dropdowns similar to the one you're reading now.
 
 [See our KPIs documentation](https://compass.2i2c.org/organization/kpis/) for more information about the metrics we track and aim to track.
 ::::
 
+:::{note} How was this website created?
+:class: dropdown
+We created this website with the [MyST Document Engine](https://mystmd.org), a new system for authoring scientific narratives and documentation.
+It is similar to the [Jupyter Book project](https://jupyterbook.org), though uses more modern web technologies.
+We're exploring more ways to improve MyST for documents like these, and are using this report as a way to learn from it.
+:::
+
 ## Impact through our cloud platform and service
 
-2i2c aims to provide a community-centric platform that enables the lifecycle of knowledge creation and sharing. At the heart of this model is a community JupyterHub that provides a digital space where many community members come together to access shared resources and work together[^communities][^seealsocommunities].
+2i2c provides a community-centric platform that enables the lifecycle of knowledge creation and sharing. At the heart of this model is a community JupyterHub that provides a digital space where many community members come together to access shared resources and work together[^communities][^seealsocommunities].
 
 [^communities]: “Communities” are a combination of research groups, classrooms, communities of practice, and institutions that were actively using the service at the end of each date period.seelsocommunities Historically marginalized communities are defined as educational institutions that are not R1 universities (for example, community colleges) as well as communities that are primarily not based in North America or Western Europe.
 
@@ -120,11 +126,11 @@ Since January, 2021, 2i2c’s team members have authored over **[2,000 merged pu
 :align: center
 :name: prs_by_repository
 
-PRs authored by a 2i2c team member that were merged in the last three months, for key upstream communities. See latest data at [2i2c.org/kpis](https://2i2c.org/kpis).
+PRs authored by a 2i2c team member that were merged in the last two quarters, for key upstream communities. See latest data at [2i2c.org/kpis](https://2i2c.org/kpis).
 :::
 
 
-2i2c now **employs 6 “distinguished contributors” to the Jupyter Community**, as well as several team members that create training and guidance programs to help communities use these open source tools to their full potential. We have driven major enhancements to technology in the stack, such as bringing [Binder-like environment building to JupyterHub](https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/), or [creating a more flexible and powerful user environment selector](https://github.com/yuvipanda/jupyterhub-fancy-profiles), or [defining a new documentation back-end for the Jupyter Book ecosystem](https://executablebooks.org/en/latest/blog/2023/new-project-members/).
+2i2c now [**employs 6 “distinguished contributors” to the Jupyter Community**](https://jupyter.org/about#distinguished-contributors), as well as several team members that create training and guidance programs to help communities use these open source tools to their full potential. We have driven major enhancements to technology in the stack, such as bringing [Binder-like environment building to JupyterHub](https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/), or [creating a more flexible and powerful user environment selector](https://github.com/yuvipanda/jupyterhub-fancy-profiles), or [defining a new documentation back-end for the Jupyter Book ecosystem](https://executablebooks.org/en/latest/blog/2023/new-project-members/).
 
 We believe that no other organization exists that has served such a diverse collection of community partners in open science workflows while providing entirely open source technology that is driven by multi-stakeholder communities of practice. This highlights our commitment to ensuring these open source communities are healthy.
 
