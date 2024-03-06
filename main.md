@@ -9,7 +9,7 @@ abbreviations:
 
 This [MyST Document](https://mystmd.org) is a final grant report generated for the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) for the seed grant that founded 2i2c. It covers the major goals, operations, and impact of 2i2c over its first three years of existence.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10790819.svg)](https://doi.org/10.5281/zenodo.10790819)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10790818.svg)](https://zenodo.org/doi/10.5281/zenodo.10790818)
 
 +++
 
