@@ -3,7 +3,7 @@ abbreviations:
   WAUs: Weekly Active Users
 ---
 
-# 2i2c three year grant report
+# 2i2c grant report overview
 
 +++ {"part": "abstract"}
 
