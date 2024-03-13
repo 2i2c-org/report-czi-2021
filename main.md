@@ -23,10 +23,10 @@ Measures like this give us a more objective way to decide we are making progress
 
 We've tried to include a few key measures for each of the major areas of progress below.
 We know they aren't perfect, and in some cases need an overhaul or better mechanisms for measuring.
-You'll see them in "cards" like the following:
+You'll see them in pull-quotes like the following:
 
-:::{card} Here's a card
-And here's some extra information!
+:::{pull-quote} 
+Here's some extra information!
 :::
 
 
@@ -44,21 +44,11 @@ You'll find those in dropdowns similar to the one you're reading now.
 
 [^seealsocommunities]: For a more in-depth picture of community hubs see our [Community Hubs Usage Dashboard](https://2i2c.org/kpis/cloud/).
 
-::::{grid} 1 1 2 2
-
-:::{card} More than 70 Active Communities
-:link: https://2i2c.org/kpis/cloud/
-See the latest data.
+:::{pull-quote} 
+More than 70 Active Communities and 7200 Monthly Active Users.
 :::
 
-:::{card} More than 7200 Monthly Active Users
-:link: https://2i2c.org/kpis/cloud/
-See the latest data.
-:::
-::::
-
-
-The most direct measure of impact for 2i2c is in the number and diversity of communities that utilize our service. At the time of writing, our open science cloud platform serves more than **70 different communities**, at a total of around **7200 monthly active users**.
+The most direct measure of impact for 2i2c is in the number and diversity of communities that utilize our service. At the time of writing, our open science cloud platform serves more than [**70 different communities**](https://2i2c.org/kpis/cloud/), at a total of around [**7200 monthly active users**](https://2i2c.org/kpis/cloud/).
 
 Below we show [the total number of communities served on our platform each year](#total_communities), with a focus on historically marginalized communities.
 
@@ -107,9 +97,8 @@ Another key outcome of this grant was using 2i2c as a mechanism to grow capacity
 
 [^upstream]: For a more in-depth picture of our upstream contributions, see [our Upstream Contributions Dashboard](https://2i2c.org/kpis/upstream/).
 
-:::{card} More than 2,000 Pull Requests authored by 2i2c and merged in last three years
-:link: https://2i2c.org/kpis/upstream/
-See the latest data.
+:::{pull-quote} 
+2,000 merged pull requests across more than 600 repositories.
 :::
 
 Since January, 2021, 2i2c’s team members have authored over **[2,000 merged pull requests across more than 600 repositories](https://github.com/search?q=author:choldgraf+author:haroldcampbell+author:colliand+author:jmunroe+author:Gman0909+author:AIDEA775+author:consideRatio+author:damianavila+author:georgianaelena+author:sgibson91+author:yuvipanda+org:jupyter+org:jupyter-server+org:jupyterhub+org:jupyterlab+org:binder-examples+org:executablebooks+org:cryptnono+org:dask+org:pydata+org:rocker-org+org:pangeo-data+is:pr+merged:%3E=2020-12-01)** in “key upstream communities” that underlie our infrastructure[^kuc]. For example, [here is a summary of merged Pull Requests in key upstream repositories](#prs_by_repository) that were authored by a 2i2c team member over the last two quarters:
@@ -142,8 +131,8 @@ We decided to use "Pull Requests authored by 2i2c team members that were merged"
 
 Finally, 2i2c aimed to achieve this impact in a sustainable way that grew the capacity of the open science and open source ecosystems. This ensures that we have a model for sustainably serving our communities and the open source ecosystem into the future.
 
-:::{card} More than $5.5 million in funding brought in over three years.
-Distributed between 2i2c and its partners.
+:::{pull-quote} 
+More than $5.5 million in funding brought in over three years.
 :::
 
 Over the last three years, 2i2c has brought in **over $5.6 million** (including this grant) to fund the capacity needed to carry out its operations. The majority of our funds have come from direct grants to 2i2c, or grant-funded collaborations with other communities. Over time, we have increased the percentage of our revenue that comes from service contracts, and aim to continue this trend to further diversify our sources of funding.
