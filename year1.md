@@ -1,7 +1,11 @@
-
-# Year 1 report
-
-_The following project assessment is from year 2 of 2i2c’s operation (12/2020 through 08/2021). It is copied from our previous report to CZI, as a historical record of the project’s progress._
+---
+title: Year 1 Report
+abstract: |
+  The following project assessment is from year 2 of 2i2c’s operation (12/2020 through 08/2021). It is copied from our previous report to CZI, as a historical record of the project’s progress.
+exports:
+  - format: typst
+    template: lapreprint-typst
+---
 
 ## Major developments
 
