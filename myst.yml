@@ -26,7 +26,11 @@ project:
   exports:
     - format: typst
       template: https://github.com/rowanc1/typst-book.git
-      toc: _toc.yml
+      articles:
+        - main.md
+        - year3.md
+        - year2.md
+        - year1.md
       output: report.pdf
   # - format: pdf
   #   template: volcanica
