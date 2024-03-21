@@ -46,7 +46,7 @@ site:
     logo_text: '2023 three year report'
   actions:
       - title: Download PDF
-        url: _build/pdf/my-document-typst.pdf
+        url: report.pdf
         static: true
 
   nav:

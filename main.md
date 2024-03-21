@@ -28,7 +28,7 @@ We know they aren't perfect, and in some cases need an overhaul or better mechan
 You'll see them in pull-quotes like the following:
 
 :::{pull-quote} 
-Here's some extra information!
+Here's an example pull quote!
 :::
 
 We'll include a brief explanation of why we use each of these measures, and what we might want to improve about them.
