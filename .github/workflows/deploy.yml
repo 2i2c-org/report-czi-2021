@@ -36,9 +36,9 @@ jobs:
       - name: Install MyST Markdown
         run: npm install -g mystmd
       - name: Build PDF Assets
-        run: myst build --typst
+        run: myst build --typst -d
       - name: Build HTML Assets
-        run: myst build --html
+        run: myst build --html -d
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
