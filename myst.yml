@@ -31,7 +31,7 @@ project:
         - year3.md
         - year2.md
         - year1.md
-      output: report.pdf
+      output: ./_build/pdf/report.pdf
     - format: pdf
       template: volcanica
       article_type: Report      
@@ -46,7 +46,7 @@ site:
     logo_text: '2023 three year report'
   actions:
       - title: Download PDF
-        url: report.pdf
+        url: ./_build/pdf/report.pdf
         static: true
 
   nav:
