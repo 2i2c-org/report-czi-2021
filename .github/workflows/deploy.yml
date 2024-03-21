@@ -35,10 +35,10 @@ jobs:
           node-version: 18.x
       - name: Install MyST Markdown
         run: npm install -g mystmd
-      - name: Build PDF Assets
-        run: myst build --typst
-      - name: Build HTML Assets
-        run: myst build --html
+      - name: Build Assets
+        run: |
+          myst build --typst
+          myst build --html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
