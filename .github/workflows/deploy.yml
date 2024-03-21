@@ -2,7 +2,6 @@
 
 name: MyST GitHub Pages Deploy
 on:
-  pull_request:
   push:
     # Runs on pushes targeting the default branch
     branches: [main]
@@ -45,6 +44,5 @@ jobs:
         with:
           path: './_build/html'
       - name: Deploy to GitHub Pages
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         id: deployment
         uses: actions/deploy-pages@v2
