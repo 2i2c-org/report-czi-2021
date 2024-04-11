@@ -1,3 +1,4 @@
 _build
 report.pdf
 .DS_Store
+.ipynb_checkpoints
