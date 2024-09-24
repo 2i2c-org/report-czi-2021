@@ -21,8 +21,10 @@ project:
   date: '2023-03-01'
   funding: This report is for the [seed funding from CZI described in this blog post](https://2i2c.org/blog/2021/czi-core-support/).
   # bibliography: []
+  references:
+    myst: https://mystmd.org/guide/
+    jb: https://jupyterbook.org/en/latest/
 
-  # Neither of these exports works, so for now I'm just ignoring them.
   exports:
     - format: typst
       id: typstpdf
@@ -47,6 +49,9 @@ site:
   actions:
       - title: 2i2c's website
         url: https://2i2c.org
+      - title: test
+        url: https://google.com
+
 
   nav:
     - title: 2i2c links
