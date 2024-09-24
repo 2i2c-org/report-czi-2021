@@ -43,14 +43,13 @@ site:
   template: book-theme
   title: 2i2c three year report
   options:
-    logo: images/logo.png
+    logo: images/logo-light.webp
+    logo_dark: images/logo-dark.webp
     favicon: images/favicon.png
     logo_text: '2023 three year report'
   actions:
       - title: 2i2c's website
         url: https://2i2c.org
-      - title: test
-        url: https://google.com
 
 
   nav:
