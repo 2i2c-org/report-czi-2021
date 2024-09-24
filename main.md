@@ -7,7 +7,7 @@ abbreviations:
 
 +++ {"part": "abstract"}
 
-This [MyST Document](https://mystmd.org) is a final grant report generated for the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) for the seed grant that founded 2i2c. It covers the major goals, operations, and impact of 2i2c over its first three years of existence.
+This [MyST Document](xref:myst) is a final grant report generated for the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) for the seed grant that founded 2i2c. It covers the major goals, operations, and impact of 2i2c over its first three years of existence.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10790818.svg)](https://zenodo.org/doi/10.5281/zenodo.10790818)
 
@@ -40,10 +40,12 @@ You'll find those in dropdowns similar to the one you're reading now.
 [See our KPIs documentation](https://compass.2i2c.org/organization/kpis/) for more information about the metrics we track and aim to track.
 ::::
 
-:::{note} How was this website created?
+:::{note} This document was created with MyST
 :class: dropdown
-We created this website with the [MyST Document Engine](https://mystmd.org), a new system for authoring scientific narratives and documentation.
-It is similar to the [Jupyter Book project](https://jupyterbook.org), though uses more modern web technologies.
+We created this website with the [MyST Document Engine](xref:myst), a new system for authoring scientific narratives and documentation.
+Try [hovering over this link for a cool feature preview](xref:myst/#cool-myst-features).
+
+MyST is similar to the [Jupyter Book project](xerf:jb), though uses more modern web technologies.
 We're exploring more ways to improve MyST for documents like these, and are using this report as a way to learn from it.
 :::
 
